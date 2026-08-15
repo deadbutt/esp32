@@ -1,0 +1,22 @@
+# ===== ESP-IDF build artifacts =====
+build/
+build_*/
+
+# ===== Generated configuration (regenerated from sdkconfig.defaults) =====
+sdkconfig
+sdkconfig.old
+
+# ===== idf_component_manager =====
+managed_components/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini

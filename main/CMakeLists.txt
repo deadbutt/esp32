@@ -1,0 +1,33 @@
+idf_component_register(
+    SRCS
+        "waveshare_rgb_lcd_port.c"
+        "lvgl_port.c"
+        "photo_cloud.c"
+        "photo_mqtt.c"
+        "photo_storage.c"
+        "photo_ui.c"
+        "photo_font_zh_16.c"
+        "main.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        driver
+        esp_lcd
+        esp_timer
+        bt
+        esp_wifi
+        esp_netif
+        esp_event
+        fatfs
+        esp_http_client
+        esp-tls
+        esp_hw_support
+        mbedtls
+        mqtt
+        esp_psram
+        sdmmc
+        espressif__esp_lcd_touch
+        json
+        nvs_flash
+        protocomm
+        wifi_provisioning
+        lvgl__lvgl)

@@ -1,0 +1,24 @@
+dependencies:
+  espressif/esp_lcd_touch:
+    dependencies: []
+    source:
+      path: D:\esp32\photo_mcu\components\espressif__esp_lcd_touch
+      type: local
+    version: 1.1.2
+  idf:
+    source:
+      type: idf
+    version: 5.2.7
+  lvgl/lvgl:
+    dependencies: []
+    source:
+      path: D:\esp32\photo_mcu\components\lvgl__lvgl
+      type: local
+    version: 8.4.0
+direct_dependencies:
+- espressif/esp_lcd_touch
+- idf
+- lvgl/lvgl
+manifest_hash: c48e5be689982c8182706e3d57044e2b0ec7b362d54d658d4d020686fbe21e40
+target: esp32s3
+version: 2.0.0
